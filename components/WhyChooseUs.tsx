@@ -1,25 +1,33 @@
+import Image from "next/image";
+
+
 export default function WhyChooseUs() {
   return (
-    <section id="why-us" className="py-20 bg-white">
-      <div className="container mx-auto px-6 text-center">
-        <h2 className="text-3xl font-bold mb-6 text-blue-600">Why Choose Us</h2>
-        <p className="text-gray-600 max-w-2xl mx-auto mb-10">
-          We stand out because of our dedication, quality, and customer satisfaction.
-        </p>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="p-6 bg-gray-50 rounded-xl shadow-md">
-            <h3 className="text-xl font-semibold mb-2">Experienced Team</h3>
-            <p className="text-gray-500">Our professionals bring years of experience to every project.</p>
-          </div>
-          <div className="p-6 bg-gray-50 rounded-xl shadow-md">
-            <h3 className="text-xl font-semibold mb-2">Proven Results</h3>
-            <p className="text-gray-500">We deliver measurable impact for our clients.</p>
-          </div>
-          <div className="p-6 bg-gray-50 rounded-xl shadow-md">
-            <h3 className="text-xl font-semibold mb-2">Customer Focus</h3>
-            <p className="text-gray-500">We prioritize understanding and meeting your needs.</p>
-          </div>
+    <section id="why-us" className="py-20 bg-[#F2F4F0] text-black w-full">
+      <div>
+        {/* <Image
+        src="/s1.png"
+        alt="slide1"
+        width={10000}
+        height={10000}
+        className="h-[445px] w-full object-cover" 
+        /> */}
+      </div>
+      <div className="flex text-black gap-10 mx-20">
+        <div className="">
+          <h1 className="font-bold text-3xl text-center mb-3">WHO</h1>
+          <h2 className="font-bold text-2xl mb-3">PT. Barlintech Jaya Utama (BJU)</h2>
+          <p>Kami adalah perusahaan infrastruktur telekomunikasi yang didukung oleh insinyur dan teknisi bersertifikat berpengalaman. Kami berkomitmen memberikan layanan yang andal, aman, dan sesuai kebutuhan klien di seluruh proyek berskala nasional.</p>
         </div>
+        <div className="">
+          <h1 className="font-bold text-3xl text-center mb-3">WHY</h1>
+          <p>Kami memahami pentingnya kualitas, ketepatan waktu, dan keselamatan kerja dalam setiap proyek. Dengan pengalaman panjang dan tim profesional, kami memastikan setiap pekerjaan diselesaikan dengan standar terbaik tanpa kompromi. Kepuasan dan kepercayaan klien menjadi prioritas utama dalam setiap langkah yang kami ambil.</p>
+        </div>
+        <div className="">
+          <h1 className="font-bold text-3xl text-center mb-3">HOW</h1>
+          <p>Kami menawarkan solusi menyeluruh mulai dari tahap desain dan perencanaan, hingga instalasi dan pemeliharaan infrastruktur telekomunikasi. Dengan pendekatan berorientasi pada klien, kami menjaga komunikasi yang terbuka dan fleksibel agar hasil akhir selalu tepat sasaran dan sesuai kebutuhan spesifik proyek.</p>
+        </div>
+
       </div>
     </section>
   );
