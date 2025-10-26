@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Team() {
   return (
-    <section id="team" className="w-full bg-[#F2F4F0] py-10 md:py-20">
+    <section id="client" className="w-full bg-[#F2F4F0] py-10 md:py-20">
       {/* Judul */}
       <div className="text-black font-bold flex flex-col justify-center items-center text-2xl md:text-3xl mb-8">
         <h2 className="text-4xl md:text-5xl">Our Client</h2>

@@ -27,7 +27,7 @@ const Navbar = () => {
               href="#hero"
               className="hover:text-[#E63946] duration-75 md:text-md text-sm border-b-2 border-transparent hover:border-[#E63946] p-3 transition-all"
             >
-              Beranda
+              Home
             </a>
           </li>
           <li>
@@ -35,7 +35,7 @@ const Navbar = () => {
               href="#about"
               className="hover:text-[#E63946] duration-75 md:text-md text-sm border-b-2 border-transparent hover:border-[#E63946] p-3 transition-all"
             >
-              Tentang Kami
+              About Us
             </a>
           </li>
           <li>
@@ -43,7 +43,7 @@ const Navbar = () => {
               href="#services"
               className="hover:text-[#E63946] duration-75 md:text-md text-sm border-b-2 border-transparent hover:border-[#E63946] p-3 transition-all"
             >
-              Layanan
+              Services
             </a>
           </li>
           <li>
@@ -51,7 +51,15 @@ const Navbar = () => {
               href="#why-us"
               className="hover:text-[#E63946] duration-75 md:text-md text-sm border-b-2 border-transparent hover:border-[#E63946] p-3 transition-all"
             >
-              Keunggulan
+              Superiority
+            </a>
+          </li>
+          <li>
+            <a
+              href="#client"
+              className="hover:text-[#E63946] duration-75 md:text-md text-sm border-b-2 border-transparent hover:border-[#E63946] p-3 transition-all"
+            >
+              Our Client
             </a>
           </li>
         </ul>
@@ -93,27 +101,27 @@ const Navbar = () => {
         <ul className="flex flex-col items-center space-y-3 text-black">
           <li>
             <a href="#hero" onClick={() => setMenuOpen(false)}>
-              Beranda
+              Home
             </a>
           </li>
           <li>
             <a href="#about" onClick={() => setMenuOpen(false)}>
-              Tentang Kami
+              About Us
             </a>
           </li>
           <li>
             <a href="#services" onClick={() => setMenuOpen(false)}>
-              Layanan
+              Services
             </a>
           </li>
           <li>
             <a href="#why-us" onClick={() => setMenuOpen(false)}>
-              Keunggulan
+              Superiority
             </a>
           </li>
           <li>
             <a href="#client" onClick={() => setMenuOpen(false)}>
-              Klien Kami
+              Our Client
             </a>
           </li>
           <li>
