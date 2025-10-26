@@ -35,13 +35,15 @@ export default function Services() {
       </div>
 
       {/* Grid layanan */}
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-10 mt-10 place-items-center px-6 sm:mx-40 sm:px-0">
+      <div className="grid grid-cols-2 gap-4 sm:gap-10 mt-10 place-items-center px-4 sm:px-0 sm:mx-80">
         {Layanan.map((layanan, index) => (
           <div
             key={index}
-            className="bg-[#D9D9D980] flex flex-col justify-start gap-3 items-center w-[150px] sm:w-[351px] h-auto sm:h-[225px] rounded-[16px] py-6 sm:py-3 shadow-md"
+            className="bg-[#D9D9D980] flex flex-col justify-start gap-3 items-center 
+                       w-[140px] sm:w-[351px] h-auto sm:h-[225px] rounded-[16px] 
+                       py-4 sm:py-3 shadow-md"
           >
-            <div className="w-full flex justify-center h-16 sm:h-20">
+            <div className="w-full flex justify-center h-14 sm:h-20">
               <Image
                 src={layanan.src}
                 alt={layanan.nama}
@@ -50,10 +52,10 @@ export default function Services() {
                 className="w-auto h-full object-contain"
               />
             </div>
-            <h5 className="text-black font-bold text-center text-sm sm:text-xl">
+            <h5 className="text-black font-bold text-center text-xs sm:text-2xl">
               {layanan.nama}
             </h5>
-            <p className="text-black text-center text-xs sm:text-md px-2 sm:px-0">
+            <p className="text-center text-[10px] sm:text-lg text-gray-700 px-2 sm:px-0">
               {layanan.deskripsi}
             </p>
           </div>

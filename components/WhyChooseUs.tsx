@@ -21,7 +21,7 @@ export default function WhyChooseUs() {
           <h2 className="font-bold text-2xl mb-3">
             PT. Barlintech Jaya Utama (BJU)
           </h2>
-          <p>
+          <p className="text-gray-700">
             Kami adalah perusahaan infrastruktur telekomunikasi yang didukung
             oleh insinyur dan teknisi bersertifikat berpengalaman. Kami
             berkomitmen memberikan layanan yang andal, aman, dan sesuai
@@ -32,7 +32,7 @@ export default function WhyChooseUs() {
         {/* WHY */}
         <div className="md:w-1/3 text-center md:text-left">
           <h1 className="font-bold text-3xl text-center mb-3">WHY</h1>
-          <p>
+          <p className="text-gray-700">
             Kami memahami pentingnya kualitas, ketepatan waktu, dan keselamatan
             kerja dalam setiap proyek. Dengan pengalaman panjang dan tim
             profesional, kami memastikan setiap pekerjaan diselesaikan dengan
@@ -44,7 +44,7 @@ export default function WhyChooseUs() {
         {/* HOW */}
         <div className="md:w-1/3 text-center md:text-left">
           <h1 className="font-bold text-3xl text-center mb-3">HOW</h1>
-          <p>
+          <p className="text-gray-700">
             Kami menawarkan solusi menyeluruh mulai dari tahap desain dan
             perencanaan, hingga instalasi dan pemeliharaan infrastruktur
             telekomunikasi. Dengan pendekatan berorientasi pada klien, kami
