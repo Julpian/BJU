@@ -12,7 +12,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="bg-[#F2F4F0] flex flex-col items-center justify-center pt-16 pb-0 md:pb-10"
+      className="bg-[#F2F4F0] flex flex-col items-center justify-center pt-16 pb-0 md:pb-10  w-full"
     >
       {/* ===== Bagian Atas - Tentang BJU ===== */}
       <div className="w-full max-w-6xl px-6 sm:px-10 md:px-20 mb-10">
@@ -41,7 +41,7 @@ export default function About() {
       </div>
 
       {/* ===== Bagian Tengah - Gambar Background ===== */}
-      <div className="relative w-full h-[250px] sm:h-[350px] md:h-[500px] overflow-hidden shadow-lg">
+      <div className="relative w-full  h-[250px] sm:h-[350px] md:h-[500px] overflow-hidden shadow-lg">
         <Image
           src="/about.png"
           alt="Team working"
@@ -52,7 +52,7 @@ export default function About() {
       </div>
 
       {/* ===== Bagian Bawah - Tim ===== */}
-      <div className="max-w-6xl w-full bg-white shadow-md relative -mt-20 sm:-mt-28 md:-mt-40 rounded-lg p-6 sm:p-8 md:p-10">
+      {/* <div className="max-w-6xl w-full bg-white shadow-md relative -mt-20 sm:-mt-28 md:-mt-40 rounded-lg p-6 sm:p-8 md:p-10">
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
           {team.map((member, index) => (
             <div key={index}>
@@ -70,7 +70,7 @@ export default function About() {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }
