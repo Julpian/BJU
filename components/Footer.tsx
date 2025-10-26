@@ -59,7 +59,7 @@ export default function Footer() {
 
         {/* Kolom 2: Kontak kami */}
         <div className="flex flex-col gap-3 text-[#00000080]">
-          <h3 className="font-semibold text-lg mb-2">Kontak kami</h3>
+          <h3 className="font-semibold text-lg mb-2">Contact Us</h3>
           <div className="flex items-center gap-2">
             <FaWhatsapp className="text-black" />
             <p className="text-sm">0812-1666-7952</p>
@@ -74,13 +74,13 @@ export default function Footer() {
         <div className="flex flex-col gap-3 text-[#00000080]">
           <h3 className="font-semibold text-lg mb-2">Navigasi</h3>
           <a href="#about" className="text-sm hover:text-[#38A2A4] transition">
-            Tentang kami
+            About Us
           </a>
           <a
             href="#services"
             className="text-sm hover:text-[#38A2A4] transition"
           >
-            Layanan kami
+            Our Services
           </a>
         </div>
       </div>

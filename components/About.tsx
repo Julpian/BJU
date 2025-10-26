@@ -12,30 +12,24 @@ export default function About() {
   return (
     <section
       id="about"
-      className="bg-[#F2F4F0] flex flex-col items-center justify-center pt-16 pb-0 md:pb-10  w-full"
+      className="bg-[#F2F4F0] flex flex-col items-center justify-center pt-16 pb-0 md:pb-10  w-full "
     >
       {/* ===== Bagian Atas - Tentang BJU ===== */}
-      <div className="w-full max-w-6xl px-6 sm:px-10 md:px-20 mb-10">
-        <div className="flex flex-col md:flex-row md:gap-20 gap-6 items-start">
+      <div className="w-full  px-15 mb-10 ">
+        <div className="flex flex-col md:flex-row md:gap-20 gap-6 items-start ">
           {/* Judul */}
-          <div className="flex flex-col items-start">
+          <div className="flex flex-col items-start w-full  md:w-300">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-900 mb-1">
-              Contact
+              About
             </h2>
-            <h2 className="text-4xl sm:text-5xl md:text-5xl font-bold text-gray-900 mb-4 md:ml-10">
-              BJU
+            <h2 className="text-xl font-bold text-gray-900 mb-4 ">
+              PT. Barlintech Jaya Utama
             </h2>
           </div>
 
           {/* Paragraf */}
           <p className="text-gray-700 leading-relaxed text-justify text-sm sm:text-base md:text-lg">
-            Kami adalah perusahaan telekomunikasi yang berkomitmen membangun
-            infrastruktur digital Indonesia melalui inovasi dan teknologi
-            terkini, guna meningkatkan konektivitas dan kinerja jaringan. Kami
-            menjalin kemitraan strategis dengan berbagai pihak, mengedepankan
-            integritas, keunggulan, dan kepuasan pelanggan, serta menciptakan
-            lingkungan kerja yang dinamis dan inklusif untuk mendorong
-            pertumbuhan dan profesionalisme.
+            We are a telecommunications company committed to building Indonesia’s digital infrastructure through innovation and cutting-edge technology to enhance connectivity and network performance. We establish strategic partnerships with various stakeholders, uphold integrity, excellence, and customer satisfaction, and foster a dynamic and inclusive work environment to drive growth and professionalism.
           </p>
         </div>
       </div>

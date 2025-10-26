@@ -7,10 +7,10 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="w-full fixed top-0 z-50 bg-[#D9D9D9] shadow-md">
-      <div className="container mx-auto flex justify-between items-center px-6 py-3">
+    <nav className="fixed top-0 left-0 w-screen z-50 bg-[#D9D9D9] shadow-md overflow-x-hidden">
+      <div className="max-w-screen-xl mx-auto flex justify-between items-center px-4 sm:px-6 py-3">
         {/* Logo */}
-        <div className="text-2xl font-bold text-blue-800 flex items-center">
+        <div className="flex items-center">
           <Image
             src="/logo.png"
             alt="logo"
@@ -20,12 +20,12 @@ const Navbar = () => {
           />
         </div>
 
-        {/* Navigation Links - tampil di desktop */}
+        {/* Navigation Links - desktop only */}
         <ul className="hidden md:flex space-x-1 md:space-x-5 text-black">
           <li>
             <a
               href="#hero"
-              className="hover:text-[#E63946] duration-75 md:text-md text-sm hover:border-b-3 p-5 transition-colors"
+              className="hover:text-[#E63946] duration-75 md:text-md text-sm border-b-2 border-transparent hover:border-[#E63946] p-3 transition-all"
             >
               Beranda
             </a>
@@ -33,7 +33,7 @@ const Navbar = () => {
           <li>
             <a
               href="#about"
-              className="hover:text-[#E63946] duration-75 md:text-md text-sm hover:border-b-3 p-5 transition-colors"
+              className="hover:text-[#E63946] duration-75 md:text-md text-sm border-b-2 border-transparent hover:border-[#E63946] p-3 transition-all"
             >
               Tentang Kami
             </a>
@@ -41,7 +41,7 @@ const Navbar = () => {
           <li>
             <a
               href="#services"
-              className="hover:text-[#E63946] duration-75 md:text-md text-sm hover:border-b-3 p-5 transition-colors"
+              className="hover:text-[#E63946] duration-75 md:text-md text-sm border-b-2 border-transparent hover:border-[#E63946] p-3 transition-all"
             >
               Layanan
             </a>
@@ -49,14 +49,14 @@ const Navbar = () => {
           <li>
             <a
               href="#why-us"
-              className="hover:text-[#E63946] duration-75 md:text-md text-sm hover:border-b-3 p-5 transition-colors"
+              className="hover:text-[#E63946] duration-75 md:text-md text-sm border-b-2 border-transparent hover:border-[#E63946] p-3 transition-all"
             >
               Keunggulan
             </a>
           </li>
         </ul>
 
-        {/* Tombol Hubungi - desktop */}
+        {/* Tombol Hubungi - desktop only */}
         <div className="hidden md:block md:px-5 px-3 py-1 rounded-[10px] bg-[#38A3A5] text-white">
           <button>Hubungi</button>
         </div>
@@ -84,7 +84,7 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Menu dropdown untuk mobile */}
+      {/* Menu dropdown - mobile only */}
       <div
         className={`md:hidden bg-[#D9D9D9] transition-all duration-300 overflow-hidden ${
           menuOpen ? "max-h-64 py-4" : "max-h-0"
@@ -109,6 +109,11 @@ const Navbar = () => {
           <li>
             <a href="#why-us" onClick={() => setMenuOpen(false)}>
               Keunggulan
+            </a>
+          </li>
+          <li>
+            <a href="#client" onClick={() => setMenuOpen(false)}>
+              Klien Kami
             </a>
           </li>
           <li>

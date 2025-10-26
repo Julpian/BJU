@@ -4,22 +4,22 @@ const Layanan = [
   {
     nama: "Manage Operation",
     src: "/manage.png",
-    deskripsi: "Mengelola operasional sistem atau proyek telekomunikasi",
+    deskripsi: "Managing the operations of telecommunication systems or projects.",
   },
   {
     nama: "Radio Network Engineering And Infrastructure",
     src: "/radio.png",
-    deskripsi: "Merancang dan membangun jaringan radio",
+    deskripsi: "Designing and building radio networks.",
   },
   {
     nama: "Telecommunication Engineering",
     src: "/tele.png",
-    deskripsi: "Teknik dan rekayasa sistem komunikasi",
+    deskripsi: "Communication systems engineering and design.",
   },
   {
     nama: "Telco Infrastructure",
     src: "/telco.png",
-    deskripsi: "Merancang dan membangun jaringan radio",
+    deskripsi: "Designing and constructing radio networks.",
   },
 ];
 
@@ -28,7 +28,7 @@ export default function Services() {
     <section id="services" className="bg-[#F2F4F0] w-full">
       {/* Judul */}
       <div className="text-black font-bold flex flex-col justify-center items-center text-3xl mt-16 gap-5 px-4 sm:px-0">
-        <h2 className="text-3xl sm:text-5xl text-center">Layanan Kami</h2>
+        <h2 className="text-3xl sm:text-5xl text-center">Our Services</h2>
         <h4 className="text-base sm:text-xl text-center">
           Telecommunication Construction Service
         </h4>
