@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="flex flex-col-reverse md:flex-row bg-[#F2F4F0] w-full font-poppins items-center md:h-full px-15 py-10 md:py-20 mt-10 md:mt-0 "
+      className="flex flex-col-reverse md:flex-row bg-[#F2F4F0] w-full font-poppins items-center md:h-full px-15 py-10 md:py-20 mt-0 md:mt-0 "
     >
       {/* Bagian Kiri (teks) */}
       <div className="w-full md:w-6/10 text-black md:pr-10">
