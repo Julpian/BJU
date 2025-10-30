@@ -25,7 +25,7 @@ export default function Footer() {
           </div>
 
           {/* Sosial media */}
-          <div className="flex gap-3 mt-3 ">
+          {/* <div className="flex gap-3 mt-3 ">
             <a
               href="#"
               aria-label="Instagram"
@@ -54,7 +54,7 @@ export default function Footer() {
             >
               <FaEnvelope size={20} />
             </a>
-          </div>
+          </div> */}
         </div>
 
         {/* Kolom 2: Kontak kami */}

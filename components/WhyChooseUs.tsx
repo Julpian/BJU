@@ -48,7 +48,7 @@ export default function WhyChooseUs() {
     >
       {/* SLIDER */}
       <div
-        className="relative w-full h-[445px] overflow-hidden"
+        className="relative w-full h-70 md:h-[445px] overflow-hidden"
         onTouchStart={handleTouchStart}
         onTouchMove={handleTouchMove}
         onTouchEnd={handleTouchEnd}
@@ -62,7 +62,7 @@ export default function WhyChooseUs() {
           {images.map((src, index) => (
             <div
               key={index}
-              className="flex-shrink-0 w-full h-[445px] relative"
+              className="flex-shrink-0 w-full h-70 md:h-[445px] relative"
             >
               <Image
                 src={src}

@@ -6,17 +6,17 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="flex flex-col-reverse md:flex-row bg-[#F2F4F0] w-full font-poppins items-center md:h-full px-15 py-10 md:py-20 mt-0 md:mt-0 "
+      className="flex flex-col-reverse md:flex-row bg-[#F2F4F0] w-full font-poppins items-center md:h-full px-15 py-10 md:py-20 mt-10 md:mt-0 mb-3 md:mb-0"
     >
       {/* Bagian Kiri (teks) */}
       <div className="w-full md:w-6/10 text-black md:pr-10">
-        <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-semibold tracking-wide leading-tight">
+        <h1 className="text-4xl sm:text-4xl md:text-6xl lg:text-7xl font-semibold tracking-wide leading-tight">
           Superior and
         </h1>
-        <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-semibold tracking-wide leading-tight">
+        <h1 className="text-4xl sm:text-4xl md:text-6xl lg:text-7xl font-semibold tracking-wide leading-tight">
           Resilient Digital
         </h1>
-        <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-semibold tracking-wide leading-tight">
+        <h1 className="text-4xl sm:text-4xl md:text-6xl lg:text-7xl font-semibold tracking-wide leading-tight">
           Infrastructure
         </h1>
 
@@ -36,7 +36,7 @@ const Hero = () => {
       </div>
 
       {/* Bagian Kanan (gambar) */}
-      <div className="w-full md:w-4/10 flex justify-end mb-10 md:mb-0 ">
+      <div className="w-full md:w-4/10 hidden md:flex justify-end mb-10 md:mb-0 ">
         <Image
           src="/hero.png"
           alt="hero"

@@ -14,8 +14,8 @@ const Navbar = () => {
           <Image
             src="/logo.png"
             alt="logo"
-            width={1000}
-            height={1000}
+            width={12000}
+            height={12000}
             className="w-auto h-10"
           />
         </div>
